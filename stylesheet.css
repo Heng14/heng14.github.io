@@ -149,12 +149,18 @@ li {
 }
 
 .news-list {
-  margin-top: 6px;
+  margin-top: 0;
   margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .news-list li:last-child {
   margin-bottom: 0;
+}
+
+heading + .news-list {
+  margin-top: 2px;
 }
 
 .intro-lead {
